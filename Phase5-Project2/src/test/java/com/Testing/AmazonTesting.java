@@ -30,7 +30,7 @@ public class AmazonTesting {
 		driver.findElement(By.xpath("//*[@id=\"continue\"]")).click();
 		Thread.sleep(3000);
 		//password
-		driver.findElement(By.xpath("//*[@id=\"ap_password\"]")).sendKeys("Mukilan@08");
+		driver.findElement(By.xpath("//*[@id=\"ap_password\"]")).sendKeys("**********");
 		Thread.sleep(2000);
 		//signin
 		WebElement e4 = driver.findElement(By.xpath("//*[@id=\"signInSubmit\"]"));
