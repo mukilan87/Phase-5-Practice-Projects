@@ -44,7 +44,6 @@ public class AmazonTesting {
 		driver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]")).sendKeys("iphone 13");
 		Thread.sleep(2000);
 		
-		
 		//search
 		driver.findElement(By.xpath("//*[@id=\"nav-search-submit-button\"]")).click();
 		Thread.sleep(3000);
